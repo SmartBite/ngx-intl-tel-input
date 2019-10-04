@@ -1,6 +1,6 @@
 {
-  "name": "ngx-intl-tel-input",
-  "version": "2.2.1",
+  "name": "@smartbite/ngx-intl-tel-input",
+  "version": "2.2.6",
   "peerDependencies": {
     "@angular/common": "^7.1.0",
     "@angular/core": "^7.1.0",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webcat12345/ngx-intl-tel-input"
+    "url": "git+https://github.com/SmartBite/ngx-intl-tel-input"
   },
   "author": {
     "name": "webcat12345",
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webcat12345/ngx-intl-tel-input/issues"
+    "url": "https://github.com/SmartBite/ngx-intl-tel-input/issues"
   },
   "devDependencies": {
     "@types/google-libphonenumber": "^7.4.17"

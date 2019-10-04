@@ -1,6 +1,6 @@
 {
-  "name": "@smartbite/ngx-intl-tel-input",
-  "version": "2.2.2",
+  "name": "ngx-intl-tel-input",
+  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -13,11 +13,8 @@
     "copy-readme": "cp ./README.md ./dist/ngx-intl-tel-input",
     "copy-files": "npm run copy-license && npm run copy-readme",
     "npm_pack": "cd dist/ngx-intl-tel-input && npm pack",
-    "package": "npm run build_lib && npm run npm_pack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SmartBite/ngx-intl-tel-input.git"
+    "package": "npm run build_lib && npm run npm_pack",
+    "publish": "npm run build_lib && npm run copy_files && cd dist/ngx-intl-tel-input && npm publish"
   },
   "dependencies": {
     "@angular/animations": "~7.2.4",
