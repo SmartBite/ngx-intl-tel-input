@@ -1,6 +1,6 @@
 {
   "name": "@smartbite/ngx-intl-tel-input",
-  "version": "2.2.6",
+  "version": "2.2.7",
   "peerDependencies": {
     "@angular/common": "^7.1.0",
     "@angular/core": "^7.1.0",
